@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media (min-width: 1200px){
+}
+
+
+@media (min-width: 1600px){
+}
+
+
+/*Notebooks and Small Laptops*/
+@media (min-width: 1025px){
+
+}
+
+/*iPad Landscape Mode and Large Tablets */
+@media (max-width: 1024px){
+
+}
+
+/*Small Desktop and Very Small Notebook */
+@media (max-width: 1000px){
+.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav{
+		float: none;		
+		
+	}
+	.navbar-toggle {
+		display: block;
+		z-index:99;
+	}
+	
+	.navbar-collapse.collapse{			
+		margin-top: 50px;		
+	}
+	.logomobwrap {
+		position: absolute;
+		left: 0px;
+		max-width: 65px;
+	}
+
+}
+
+/*Medium Tablets */
+@media (max-width: 800px){
+	.bannerimg{
+		max-width: auto !important;
+	}
+	
+	.logomobwrap{	
+		position: absolute;
+		left: 0px;	
+		max-width: 65px;
+	}
+}
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 768px){
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav{
+		float: none;		
+		
+	}
+	.navbar-toggle {
+		display: block;
+		z-index:99;
+	}
+	
+	.navbar-collapse.collapse{			
+		margin-top: 50px;		
+	}
+
+}
+
+/*Medium Smart Phones v2*/
+@media screen and (max-width: 640px){
+	.carouselwrap {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+	}		
+}
+
+@media screen and (max-width: 600px){
+
+
+}
+
+
+@media screen and (max-width: 480px){
+}
+
+/*Other Major Small Smart Phones*/
+@media screen and (max-width: 360px){
+}
+
+/*iPhone Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+}
